@@ -7,24 +7,21 @@
 .aboutme {
     width: 960px;
     height: 75%;
-    background-color: aquamarine;
+    background-color: white;
     margin: auto;
-    
-    
 }
 
 .header {
-    width:960px;
+    width:100%;
     height: 100px;
-    background-color: chartreuse;
+    background-color: white;
     margin: auto;
 }
 
 .footer {
     text-align: center;
     width: 100%;
-    background-color: darkgoldenrod
-    
+    background-color: grey;  
 }
 
 .name {
@@ -33,4 +30,21 @@
 
 .nav {
     float: right;
+}
+
+body {
+    background-image: url("images/background.png")
+}
+
+h1 {
+    color: blue;
+}
+
+hr {
+    border-width: 0px;
+    height: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:gray;
+    background-color: gray;
 }
